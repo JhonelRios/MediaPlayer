@@ -1,10 +1,10 @@
 {
-  "name": "Javascript_profesional",
+  "name": "PlatziMediaPlayer",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Proyecto del curso profesional de JS",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server"
   },
   "keywords": [],
   "author": "Jhonel Rios Jaimes <riosjaimes.j@gmail.com>",
