@@ -4,16 +4,19 @@
   "description": "Proyecto del curso profesional de JS",
   "main": "src/index.js",
   "scripts": {
-    "start": "parcel index.html "
+    "start": "parcel index.html ejercicios/index.html"
   },
   "keywords": [],
   "author": "Jhonel Rios Jaimes <riosjaimes.j@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3"
   },
-  "browsersList": [
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.2"
+  },
+  "browserslist": [
     "last 1 Chrome version"
   ]
 }
